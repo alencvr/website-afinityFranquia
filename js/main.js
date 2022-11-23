@@ -228,10 +228,10 @@ jQuery(document).on('ready', function () {
         }
     });
 
-    //Show-Hide header sidebar
-    jQuery('#toggle').on('click', multiClickFunctionStop);
+    // //Show-Hide header sidebar
+    // jQuery('#toggle').on('click', multiClickFunctionStop);
 
-    contactFormWidthFix();
+    // contactFormWidthFix();
 
 });
 
@@ -257,9 +257,9 @@ jQuery(window).on('load', function () {
 });
 
 
-jQuery(window).on('resize', function () {
-    contactFormWidthFix();
-});
+// jQuery(window).on('resize', function () {
+//     contactFormWidthFix();
+// });
 
 //------------------------------------------------------------------------
 //Helper Methods -->
@@ -286,9 +286,9 @@ var skillsFill = function () {
     });
 };
 
-var contactFormWidthFix = function () {
-    jQuery('.wpcf7 input[type=text], .wpcf7 input[type=email], .wpcf7 textarea').innerWidth(jQuery('.wpcf7-form').width());
-};
+// var contactFormWidthFix = function () {
+//     jQuery('.wpcf7 input[type=text], .wpcf7 input[type=email], .wpcf7 textarea').innerWidth(jQuery('.wpcf7-form').width());
+// };
 
 var multiClickFunctionStop = function (e) {
     jQuery('#toggle').off("click");

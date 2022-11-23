@@ -254,7 +254,7 @@ iframe
 }
 h1,h2,h3,h5,h6
 {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 h1
 {
@@ -367,8 +367,16 @@ sub
     position: relative;
     margin-bottom: 15px;
 }
+
+#about .one_half {
+    margin-right: 4%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+}
+
 .last{
-    margin-right: 0 !important;
+    margin-right: 0px !important;
     clear: right;
 }
 .one{
